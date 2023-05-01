@@ -1,7 +1,7 @@
 
 import streamlit
 
-streamlit.title('My first time in Python')
+streamlit.title('My first time in Python🥣 🥗 🐔 🥑🍞')
 
 streamlit.header('Breakfast Menu')
 streamlit.text('Omega 3 & Blueberry Oatmeal')
