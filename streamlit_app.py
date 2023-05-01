@@ -7,4 +7,4 @@ streamlit.title('My second time in Python')
 
 streamlit.header(' this is not a header')
 
-Streamlit.test(' lets play arround')
+streamlit.test(' lets play arround')
