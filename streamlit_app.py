@@ -57,3 +57,7 @@ streamlit.header("New Fruit box")
 fruit_choice1 = streamlit.text_input('What fruit would you like information about?','Banana')
 streamlit.write('The user entered ', fruit_choice1)
 
+my_cur.execute("insert into fruit_load_list values('from Streamlit')")
+
+
+
