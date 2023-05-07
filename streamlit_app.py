@@ -54,8 +54,8 @@ streamlit.dataframe(my_data_rows)
 
 streamlit.header("New Fruit box")
 
-add_my_fruit = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('The user entered ', add_my_fruit)
+fruit_choice1 = streamlit.text_input('What fruit would you like information about?','Kiwi')
+streamlit.write('The user entered ', fruit_choice1)
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+add_my_fruit)
