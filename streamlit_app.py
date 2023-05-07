@@ -83,8 +83,7 @@ if streamlit.button('Add a fruit to the list'):
       my_cnx.close()
       #streamlit.dataframe(back_from_function)
       streamlit.text(back_from_function)
-      
- streamlit.stop()
+streamlit.stop()
            
 
 
